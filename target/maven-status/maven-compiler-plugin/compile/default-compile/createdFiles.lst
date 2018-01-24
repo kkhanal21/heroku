@@ -1,0 +1,4 @@
+com\puzan\heroku\Controller\PersonController.class
+com\puzan\heroku\DAO\Impl\PersonDAOImpl.class
+com\puzan\heroku\Entity\Person.class
+com\puzan\heroku\DAO\PersonDAO.class
