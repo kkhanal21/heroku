@@ -23,11 +23,12 @@
         <constructor-arg value="#{systemEnvironment['DATABASE_URL']}"/>
     </bean>-->
 
+    <!--
     <bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource">
         <property name="url" value="jdbc:postgresql://ec2-107-21-95-70.compute-1.amazonaws.com:5432/d4nl78gkh7rssa"/>
         <property name="username" value="dyjlnylyklaarh"/>
         <property name="password" value="233d658c6e5b4d29311c5b457c391f1b5c8acc6eb4d323f95b5d874704591a34"/>
-    </bean>
+    </bean>-->
 
                       
     <bean id="sessionFactory" class = "org.springframework.orm.hibernate4.LocalSessionFactoryBean">         
